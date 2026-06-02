@@ -1,7 +1,7 @@
 import ScrollSuave from "./scrollSuave.js";
 import initAnimacaoScroll from "./initAnimacaoScroll.js";
 import initTabMenu from "./tabMenu.js";
-import initAccordion from "./accordion.js";
+import Accordion from "./accordion.js";
 import goToTop from "./toUp.js";
 import initModal from "./modal.js";
 import initTooltip from "./tooltip.js";
@@ -13,10 +13,11 @@ import initFetchBitcoin from "./fetch-bitcoin.js";
 
 const scrollSuave = new ScrollSuave('.js-menu a[href^="#"]');
 scrollSuave.init();
+const accordion = new Accordion(".js-accordion dt");
+accordion.init();
 
 initAnimacaoScroll();
 initTabMenu();
-initAccordion();
 
 goToTop();
 initModal();
