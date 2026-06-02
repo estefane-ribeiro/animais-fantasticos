@@ -3,7 +3,7 @@ import initAnimacaoScroll from "./initAnimacaoScroll.js";
 import TabNav from "./tabMenu.js";
 import Accordion from "./accordion.js";
 import goToTop from "./toUp.js";
-import initModal from "./modal.js";
+import Modal from "./modal.js";
 import initTooltip from "./tooltip.js";
 import initDropdownMenu from "./dropdown-menu.js";
 import initMenuMobile from "./menu-mobile.js";
@@ -19,10 +19,13 @@ accordion.init();
 const tabNav = new TabNav(".js-tabmenu li", ".js-tabcontent section");
 tabNav.init();
 
+const modal = new Modal(".container-modal", "[data-modal=fechar]", ".login");
+modal.init();
+
 initAnimacaoScroll();
 
 goToTop();
-initModal();
+
 initTooltip();
 initDropdownMenu();
 initMenuMobile();
