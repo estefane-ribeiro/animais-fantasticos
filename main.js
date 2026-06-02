@@ -126,7 +126,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _initAnimacaoScroll_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./initAnimacaoScroll.js */ \"./js/initAnimacaoScroll.js\");\n/* harmony import */ var _tabMenu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tabMenu.js */ \"./js/tabMenu.js\");\n/* harmony import */ var _accordion_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./accordion.js */ \"./js/accordion.js\");\n/* harmony import */ var _scrollSuave_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./scrollSuave.js */ \"./js/scrollSuave.js\");\n/* harmony import */ var _toUp_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./toUp.js */ \"./js/toUp.js\");\n/* harmony import */ var _modal_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modal.js */ \"./js/modal.js\");\n/* harmony import */ var _tooltip_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tooltip.js */ \"./js/tooltip.js\");\n/* harmony import */ var _dropdown_menu_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dropdown-menu.js */ \"./js/dropdown-menu.js\");\n/* harmony import */ var _menu_mobile_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./menu-mobile.js */ \"./js/menu-mobile.js\");\n/* harmony import */ var _initFuncionamento_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./initFuncionamento.js */ \"./js/initFuncionamento.js\");\n/* harmony import */ var _fetch_animais_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fetch-animais.js */ \"./js/fetch-animais.js\");\n/* harmony import */ var _fetch_bitcoin_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fetch-bitcoin.js */ \"./js/fetch-bitcoin.js\");\n\n\n\n\n\n\n\n\n\n\n\n\n(0,_initAnimacaoScroll_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])();\n(0,_tabMenu_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n(0,_accordion_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n(0,_scrollSuave_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n(0,_toUp_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n(0,_modal_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n(0,_tooltip_js__WEBPACK_IMPORTED_MODULE_6__[\"default\"])();\n(0,_dropdown_menu_js__WEBPACK_IMPORTED_MODULE_7__[\"default\"])();\n(0,_menu_mobile_js__WEBPACK_IMPORTED_MODULE_8__[\"default\"])();\n(0,_initFuncionamento_js__WEBPACK_IMPORTED_MODULE_9__[\"default\"])();\n(0,_fetch_animais_js__WEBPACK_IMPORTED_MODULE_10__[\"default\"])();\n(0,_fetch_bitcoin_js__WEBPACK_IMPORTED_MODULE_11__[\"default\"])();\n\n//# sourceURL=webpack://animais-fantasticos/./js/script.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scrollSuave_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./scrollSuave.js */ \"./js/scrollSuave.js\");\n/* harmony import */ var _initAnimacaoScroll_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./initAnimacaoScroll.js */ \"./js/initAnimacaoScroll.js\");\n/* harmony import */ var _tabMenu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tabMenu.js */ \"./js/tabMenu.js\");\n/* harmony import */ var _accordion_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./accordion.js */ \"./js/accordion.js\");\n/* harmony import */ var _toUp_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./toUp.js */ \"./js/toUp.js\");\n/* harmony import */ var _modal_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modal.js */ \"./js/modal.js\");\n/* harmony import */ var _tooltip_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./tooltip.js */ \"./js/tooltip.js\");\n/* harmony import */ var _dropdown_menu_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./dropdown-menu.js */ \"./js/dropdown-menu.js\");\n/* harmony import */ var _menu_mobile_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./menu-mobile.js */ \"./js/menu-mobile.js\");\n/* harmony import */ var _initFuncionamento_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./initFuncionamento.js */ \"./js/initFuncionamento.js\");\n/* harmony import */ var _fetch_animais_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./fetch-animais.js */ \"./js/fetch-animais.js\");\n/* harmony import */ var _fetch_bitcoin_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./fetch-bitcoin.js */ \"./js/fetch-bitcoin.js\");\n\n\n\n\n\n\n\n\n\n\n\n\nvar scrollSuave = new _scrollSuave_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"]('.js-menu a[href^=\"#\"]');\nscrollSuave.init();\n(0,_initAnimacaoScroll_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n(0,_tabMenu_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"])();\n(0,_accordion_js__WEBPACK_IMPORTED_MODULE_3__[\"default\"])();\n(0,_toUp_js__WEBPACK_IMPORTED_MODULE_4__[\"default\"])();\n(0,_modal_js__WEBPACK_IMPORTED_MODULE_5__[\"default\"])();\n(0,_tooltip_js__WEBPACK_IMPORTED_MODULE_6__[\"default\"])();\n(0,_dropdown_menu_js__WEBPACK_IMPORTED_MODULE_7__[\"default\"])();\n(0,_menu_mobile_js__WEBPACK_IMPORTED_MODULE_8__[\"default\"])();\n(0,_initFuncionamento_js__WEBPACK_IMPORTED_MODULE_9__[\"default\"])();\n(0,_fetch_animais_js__WEBPACK_IMPORTED_MODULE_10__[\"default\"])();\n(0,_fetch_bitcoin_js__WEBPACK_IMPORTED_MODULE_11__[\"default\"])();\n\n//# sourceURL=webpack://animais-fantasticos/./js/script.js?\n}");
 
 /***/ },
 
@@ -137,7 +137,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _in
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ scrollSuave)\n/* harmony export */ });\nfunction scrollSuave() {\n  var linksInternos = document.querySelectorAll('.js-menu a[href^=\"#\"]');\n  if (linksInternos.length) {\n    var scrollToSection = function scrollToSection(event) {\n      event.preventDefault();\n      var href = event.currentTarget.getAttribute(\"href\");\n      var section = document.querySelector(href);\n\n      // forma alternativa\n      // const topo = section.offsetTop;\n      // window.scrollTo({\n      //   top: topo,\n      //   behavior: \"smooth\"\n      // })\n\n      section.scrollIntoView({\n        behavior: \"smooth\",\n        block: \"start\"\n      });\n    };\n    linksInternos.forEach(function (link) {\n      link.addEventListener(\"click\", scrollToSection);\n    });\n  }\n}\n\n//# sourceURL=webpack://animais-fantasticos/./js/scrollSuave.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ ScrollSuave)\n/* harmony export */ });\n/* harmony import */ var _babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ \"./node_modules/@babel/runtime/helpers/esm/classCallCheck.js\");\n/* harmony import */ var _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/createClass */ \"./node_modules/@babel/runtime/helpers/esm/createClass.js\");\n\n\nvar ScrollSuave = /*#__PURE__*/function () {\n  function ScrollSuave(links, options) {\n    (0,_babel_runtime_helpers_classCallCheck__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(this, ScrollSuave);\n    this.linksInternos = document.querySelectorAll(links);\n    if (options === undefined) {\n      this.options = {\n        behavior: \"smooth\",\n        block: \"start\"\n      };\n    } else {\n      this.options = options;\n    }\n    this.scrollToSection = this.scrollToSection.bind(this);\n  }\n  return (0,_babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(ScrollSuave, [{\n    key: \"scrollToSection\",\n    value: function scrollToSection(event) {\n      event.preventDefault();\n      var href = event.currentTarget.getAttribute(\"href\");\n      var section = document.querySelector(href);\n      section.scrollIntoView(this.options);\n    }\n  }, {\n    key: \"addLinkEvent\",\n    value: function addLinkEvent() {\n      var _this = this;\n      this.linksInternos.forEach(function (link) {\n        link.addEventListener(\"click\", _this.scrollToSection);\n      });\n    }\n  }, {\n    key: \"init\",\n    value: function init() {\n      if (this.linksInternos.length) {\n        this.addLinkEvent();\n      }\n      return this;\n    }\n  }]);\n}();\n\n\n//# sourceURL=webpack://animais-fantasticos/./js/scrollSuave.js?\n}");
 
 /***/ },
 
@@ -292,6 +292,61 @@ eval("{// TODO(Babel 8): Remove this file.\n\nvar runtime = __webpack_require__(
 
 "use strict";
 eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ _asyncToGenerator)\n/* harmony export */ });\nfunction asyncGeneratorStep(n, t, e, r, o, a, c) {\n  try {\n    var i = n[a](c),\n      u = i.value;\n  } catch (n) {\n    return void e(n);\n  }\n  i.done ? t(u) : Promise.resolve(u).then(r, o);\n}\nfunction _asyncToGenerator(n) {\n  return function () {\n    var t = this,\n      e = arguments;\n    return new Promise(function (r, o) {\n      var a = n.apply(t, e);\n      function _next(n) {\n        asyncGeneratorStep(a, r, o, _next, _throw, \"next\", n);\n      }\n      function _throw(n) {\n        asyncGeneratorStep(a, r, o, _next, _throw, \"throw\", n);\n      }\n      _next(void 0);\n    });\n  };\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js?\n}");
+
+/***/ },
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js"
+/*!*******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/classCallCheck.js ***!
+  \*******************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ _classCallCheck)\n/* harmony export */ });\nfunction _classCallCheck(a, n) {\n  if (!(a instanceof n)) throw new TypeError(\"Cannot call a class as a function\");\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/classCallCheck.js?\n}");
+
+/***/ },
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/createClass.js"
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/createClass.js ***!
+  \****************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ _createClass)\n/* harmony export */ });\n/* harmony import */ var _toPropertyKey_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./toPropertyKey.js */ \"./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js\");\n\nfunction _defineProperties(e, r) {\n  for (var t = 0; t < r.length; t++) {\n    var o = r[t];\n    o.enumerable = o.enumerable || !1, o.configurable = !0, \"value\" in o && (o.writable = !0), Object.defineProperty(e, (0,_toPropertyKey_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(o.key), o);\n  }\n}\nfunction _createClass(e, r, t) {\n  return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, \"prototype\", {\n    writable: !1\n  }), e;\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/createClass.js?\n}");
+
+/***/ },
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/toPrimitive.js"
+/*!****************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toPrimitive.js ***!
+  \****************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ toPrimitive)\n/* harmony export */ });\n/* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ \"./node_modules/@babel/runtime/helpers/esm/typeof.js\");\n\nfunction toPrimitive(t, r) {\n  if (\"object\" != (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(t) || !t) return t;\n  var e = t[Symbol.toPrimitive];\n  if (void 0 !== e) {\n    var i = e.call(t, r || \"default\");\n    if (\"object\" != (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(i)) return i;\n    throw new TypeError(\"@@toPrimitive must return a primitive value.\");\n  }\n  return (\"string\" === r ? String : Number)(t);\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/toPrimitive.js?\n}");
+
+/***/ },
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js"
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js ***!
+  \******************************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ toPropertyKey)\n/* harmony export */ });\n/* harmony import */ var _typeof_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./typeof.js */ \"./node_modules/@babel/runtime/helpers/esm/typeof.js\");\n/* harmony import */ var _toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./toPrimitive.js */ \"./node_modules/@babel/runtime/helpers/esm/toPrimitive.js\");\n\n\nfunction toPropertyKey(t) {\n  var i = (0,_toPrimitive_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(t, \"string\");\n  return \"symbol\" == (0,_typeof_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(i) ? i : i + \"\";\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/toPropertyKey.js?\n}");
+
+/***/ },
+
+/***/ "./node_modules/@babel/runtime/helpers/esm/typeof.js"
+/*!***********************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/typeof.js ***!
+  \***********************************************************/
+(__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ _typeof)\n/* harmony export */ });\nfunction _typeof(o) {\n  \"@babel/helpers - typeof\";\n\n  return _typeof = \"function\" == typeof Symbol && \"symbol\" == typeof Symbol.iterator ? function (o) {\n    return typeof o;\n  } : function (o) {\n    return o && \"function\" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? \"symbol\" : typeof o;\n  }, _typeof(o);\n}\n\n\n//# sourceURL=webpack://animais-fantasticos/./node_modules/@babel/runtime/helpers/esm/typeof.js?\n}");
 
 /***/ }
 
