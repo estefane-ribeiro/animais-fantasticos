@@ -1,20 +1,40 @@
-export default function initModal() {
-  const containerModal = document.querySelector(".container-modal");
-  const btnFechar = document.querySelector("[data-modal=fechar]");
-  const btnLogin = document.querySelector(".login");
+export default class Modal {
+  constructor(containerModal, btnFechar, btnLogin) {
+    this.containerModal = document.querySelector(containerModal);
+    this.btnFechar = document.querySelector(btnFechar);
+    this.btnLogin = document.querySelector(btnLogin);
 
-  function toggleModal(event) {
-    event.preventDefault();
-    containerModal.classList.toggle("ativo");
+    // bind this ao callback para fazer referencia ao objeto da classe
+
+    this.eventToggleModal = this.eventToggleModal.bind(this);
+    this.foraModal = this.foraModal.bind(this);
   }
 
-  function foraModal(event) {
-    if (event.target === this) {
-      toggleModal(event);
+  toggleModal() {
+    this.containerModal.classList.toggle("ativo");
+  }
+
+  eventToggleModal(event) {
+    event.preventDefault();
+    this.toggleModal();
+  }
+
+  foraModal(event) {
+    if (event.target === this.containerModal) {
+      this.toggleModal();
     }
   }
 
-  btnLogin.addEventListener("click", toggleModal);
-  btnFechar.addEventListener("click", toggleModal);
-  containerModal.addEventListener("click", foraModal);
+  addModalEvents() {
+    this.btnLogin.addEventListener("click", this.eventToggleModal);
+    this.btnFechar.addEventListener("click", this.eventToggleModal);
+    this.containerModal.addEventListener("click", this.foraModal);
+  }
+
+  init() {
+    if (this.containerModal && this.btnFechar && this.btnLogin) {
+      this.addModalEvents();
+    }
+    return this;
+  }
 }
