@@ -4,7 +4,7 @@ import TabNav from "./tabMenu.js";
 import Accordion from "./accordion.js";
 import goToTop from "./toUp.js";
 import Modal from "./modal.js";
-import initTooltip from "./tooltip.js";
+import Tooltip from "./tooltip.js";
 import initDropdownMenu from "./dropdown-menu.js";
 import initMenuMobile from "./menu-mobile.js";
 import initFuncionamento from "./initFuncionamento.js";
@@ -22,11 +22,13 @@ tabNav.init();
 const modal = new Modal(".container-modal", "[data-modal=fechar]", ".login");
 modal.init();
 
+const tooltip = new Tooltip("[data-tooltip]");
+tooltip.init();
+
 initAnimacaoScroll();
 
 goToTop();
 
-initTooltip();
 initDropdownMenu();
 initMenuMobile();
 initFuncionamento();
