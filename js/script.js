@@ -1,5 +1,4 @@
 import ScrollSuave from "./scrollSuave.js";
-import initAnimacaoScroll from "./initAnimacaoScroll.js";
 import TabNav from "./tabMenu.js";
 import Accordion from "./accordion.js";
 import goToTop from "./toUp.js";
@@ -10,6 +9,7 @@ import initMenuMobile from "./menu-mobile.js";
 import initFuncionamento from "./initFuncionamento.js";
 import fetchAnimais from "./fetch-animais.js";
 import fetchBitcoin from "./fetch-bitcoin.js";
+import AnimacaoScroll from "./initAnimacaoScroll.js";
 
 const scrollSuave = new ScrollSuave('.js-menu a[href^="#"]');
 scrollSuave.init();
@@ -28,7 +28,8 @@ tooltip.init();
 fetchAnimais("animaisapi.json", ".numeros-grid");
 fetchBitcoin(".btc-preco", "https://blockchain.info/ticker");
 
-initAnimacaoScroll();
+const animacaoScroll = new AnimacaoScroll(".js-scroll");
+animacaoScroll.init();
 
 goToTop();
 
