@@ -1,3 +1,4 @@
+import debounce from "./debounce.js";
 export default function goToTop() {
   const arrow = document.querySelector(".js-arrow");
 
@@ -15,6 +16,7 @@ export default function goToTop() {
   let ticking = false;
 
   function handleScroll() {
+    console.log("teste");
     if (!ticking) {
       window.requestAnimationFrame(() => {
         if (window.scrollY >= 200) {
@@ -27,5 +29,5 @@ export default function goToTop() {
       ticking = true;
     }
   }
-  window.addEventListener("scroll", handleScroll);
+  window.addEventListener("scroll", debounce(handleScroll, 50));
 }
