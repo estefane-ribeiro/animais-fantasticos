@@ -5,7 +5,7 @@ import goToTop from "./toUp.js";
 import Modal from "./modal.js";
 import Tooltip from "./tooltip.js";
 import DropdownMenu from "./dropdown-menu.js";
-import initMenuMobile from "./menu-mobile.js";
+import MenuMobile from "./menu-mobile.js";
 import initFuncionamento from "./initFuncionamento.js";
 import fetchAnimais from "./fetch-animais.js";
 import fetchBitcoin from "./fetch-bitcoin.js";
@@ -36,5 +36,7 @@ goToTop();
 const dropdownMenu = new DropdownMenu("[data-dropdown]");
 dropdownMenu.init();
 
-initMenuMobile();
+const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
+menuMobile.init();
+
 initFuncionamento();
