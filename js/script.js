@@ -6,10 +6,10 @@ import Modal from "./modal.js";
 import Tooltip from "./tooltip.js";
 import DropdownMenu from "./dropdown-menu.js";
 import MenuMobile from "./menu-mobile.js";
-import initFuncionamento from "./initFuncionamento.js";
 import fetchAnimais from "./fetch-animais.js";
 import fetchBitcoin from "./fetch-bitcoin.js";
 import AnimacaoScroll from "./initAnimacaoScroll.js";
+import Funcionamento from "./initFuncionamento.js";
 
 const scrollSuave = new ScrollSuave('.js-menu a[href^="#"]');
 scrollSuave.init();
@@ -39,4 +39,5 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-initFuncionamento();
+const funcionamento = new Funcionamento("[data-semana]");
+funcionamento.init();
