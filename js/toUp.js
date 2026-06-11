@@ -16,7 +16,6 @@ export default function goToTop() {
   let ticking = false;
 
   function handleScroll() {
-    console.log("teste");
     if (!ticking) {
       window.requestAnimationFrame(() => {
         if (window.scrollY >= 200) {
