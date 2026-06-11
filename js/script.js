@@ -4,7 +4,7 @@ import Accordion from "./accordion.js";
 import goToTop from "./toUp.js";
 import Modal from "./modal.js";
 import Tooltip from "./tooltip.js";
-import initDropdownMenu from "./dropdown-menu.js";
+import DropdownMenu from "./dropdown-menu.js";
 import initMenuMobile from "./menu-mobile.js";
 import initFuncionamento from "./initFuncionamento.js";
 import fetchAnimais from "./fetch-animais.js";
@@ -33,6 +33,8 @@ animacaoScroll.init();
 
 goToTop();
 
-initDropdownMenu();
+const dropdownMenu = new DropdownMenu("[data-dropdown]");
+dropdownMenu.init();
+
 initMenuMobile();
 initFuncionamento();
